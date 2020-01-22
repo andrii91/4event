@@ -1,0 +1,18 @@
+@import '../../mq';
+
+@media #{$desktopHD} {
+  @import '../desktop';
+
+  & {
+    .category-slider {
+
+      .slick-prev {
+        left: 20.520833333333332VW;
+      }
+
+      .slick-next {
+        right: 27.520833333333332VW;
+      }
+    }
+  }
+}

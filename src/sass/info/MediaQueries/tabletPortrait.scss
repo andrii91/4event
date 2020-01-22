@@ -1,0 +1,47 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .head-search label {
+      display: inline-block;
+      margin-bottom: 15px;
+      max-width: 33% !important;
+      margin-right: 1px;
+      float: left;
+    }
+
+/*    .special-nav {
+      text-align: right;
+      padding: 0;
+    }*/
+
+/*    .header-nav {
+      padding: 5px 0;
+    }*/
+  }
+
+  .advantages {
+    .container {
+      max-width: 340px;
+    }
+
+  }
+
+  .catalog-tab {
+    margin-top: 0;
+  }
+
+  .for_you-item {
+    text-align: left;
+
+    br {
+      display: none;
+    }
+  }
+
+  .for_you-img img {
+    width: inherit;
+  }
+}

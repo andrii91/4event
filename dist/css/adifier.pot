@@ -1,0 +1,352 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Adifier\n"
+"POT-Creation-Date: 2019-03-24 12:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: SpoonThemes <spoonthemes@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n:"
+"1,2\n"
+"X-Poedit-SearchPath-0: C:\\wamp64\\www\\adifier\\wp-"
+"content\\plugins\\adifier-import\n"
+"X-Poedit-SearchPath-1: C:\\wamp64\\www\\adifier\\wp-"
+"content\\plugins\\adifier-system\n"
+"X-Poedit-SearchPath-2: C:\\wamp64\\www\\adifier\\wp-"
+"content\\themes\\adifier\n"
+
+#. Name of the template
+msgid "Page Full Width No Push"
+msgstr ""
+
+#: functions.php:35
+msgid ""
+"Reinstall Smeta plugin ( Delete it and theme will offer you to install it "
+"again )"
+msgstr ""
+
+#: functions.php:46
+msgid ""
+"Reinstall Adifier System plugin ( Delete it and theme will offer you to "
+"install it again )"
+msgstr ""
+
+#: functions.php:57
+msgid ""
+"Reinstall Adifier Import plugin ( Delete it and theme will offer you to "
+"install it again )"
+msgstr ""
+
+#: functions.php:74
+msgid "Redux Framework"
+msgstr ""
+
+#: functions.php:83
+msgid "King Composer"
+msgstr ""
+
+#: functions.php:92
+msgid "Adifier System"
+msgstr ""
+
+#: functions.php:102
+msgid "Smeta"
+msgstr ""
+
+#: functions.php:112
+msgid "Adifier Import"
+msgstr ""
+
+#: functions.php:144
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:146
+msgid "Appears on the right side of blog listing."
+msgstr ""
+
+#: functions.php:149
+msgid "Single Blog Sidebar"
+msgstr ""
+
+#: functions.php:151
+msgid "Appears on the right side of single blog page."
+msgstr ""
+
+#: functions.php:154
+msgid "Bottom Sidebar 1"
+msgstr ""
+
+#: functions.php:156 functions.php:161 functions.php:166
+msgid "Appears at the bottom of the page."
+msgstr ""
+
+#: functions.php:159
+msgid "Bottom Sidebar 2"
+msgstr ""
+
+#: functions.php:164
+msgid "Bottom Sidebar 3"
+msgstr ""
+
+#: functions.php:169
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: functions.php:171
+msgid "Appears at the right of the page."
+msgstr ""
+
+#: functions.php:174
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: functions.php:176
+msgid "Appears at the left of the page."
+msgstr ""
+
+#: functions.php:184
+msgid "Custom Sidebar "
+msgstr ""
+
+#: functions.php:421
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:422
+msgid "Bottom Navigation"
+msgstr ""
+
+#: functions.php:512
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:672
+msgid "Clear"
+msgstr ""
+
+#: functions.php:673
+msgid "Default"
+msgstr ""
+
+#: functions.php:674
+msgid "Select Color"
+msgstr ""
+
+#: functions.php:675
+msgid "Current Color"
+msgstr ""
+
+#: functions.php:699
+msgid "Drop files here to upload"
+msgstr ""
+
+#: functions.php:700
+msgid "Your browser does not support drag'n'drop file uploads."
+msgstr ""
+
+#: functions.php:701
+msgid ""
+"Please use the fallback form below to upload your files like in the olden "
+"days."
+msgstr ""
+
+#: functions.php:702
+msgid "File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB."
+msgstr ""
+
+#: functions.php:703
+msgid "You can't upload files of this type."
+msgstr ""
+
+#: functions.php:704
+msgid "Server responded with {{statusCode}} code."
+msgstr ""
+
+#: functions.php:705
+msgid "Cancel upload"
+msgstr ""
+
+#: functions.php:706
+msgid "Upload canceled."
+msgstr ""
+
+#: functions.php:707
+msgid "Are you sure you want to cancel this upload?"
+msgstr ""
+
+#: functions.php:708
+msgid "Remove file"
+msgstr ""
+
+#: functions.php:709
+msgid "You can not upload any more files."
+msgstr ""
+
+#: functions.php:893
+msgid "Author"
+msgstr ""
+
+#: functions.php:899 single.php:50
+msgid " at "
+msgstr ""
+
+#: functions.php:908
+msgid "Reply"
+msgstr ""
+
+#: functions.php:922
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:6
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:6
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:6
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:45
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Name *"
+msgstr ""
+
+#: comments.php:50
+msgid "Write your name"
+msgstr ""
+
+#: comments.php:53
+msgid "Email *"
+msgstr ""
+
+#: comments.php:54
+msgid "Write your email"
+msgstr ""
+
+#: comments.php:57
+msgid "URL"
+msgstr ""
+
+#: comments.php:58
+msgid "Add your URL"
+msgstr ""
+
+#: comments.php:61
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:61
+msgid "Your comment goes here..."
+msgstr ""
+
+#: comments.php:62
+msgid "or cancel reply"
+msgstr ""
+
+#: comments.php:68
+msgid "Fields marked with * are required"
+msgstr ""
+
+#: comments.php:68
+msgid "Email is invalid"
+msgstr ""
+
+#: comments.php:70
+msgid "You must"
+msgstr ""
+
+#: comments.php:70
+msgid "Register"
+msgstr ""
+
+#: comments.php:70
+msgid "or"
+msgstr ""
+
+#: comments.php:70
+msgid "Login"
+msgstr ""
+
+#: comments.php:70
+msgid "to post a comment"
+msgstr ""
+
+#: single.php:17
+msgid "&raquo;"
+msgstr ""
+
+#: single.php:18
+msgid "&laquo;"
+msgstr ""
+
+#. Name of the template
+msgid "Page Full Width - Builder"
+msgstr ""
+
+#. Name of the template
+msgid "Page Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Left Sidebar"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for..."
+msgstr ""
+
+#: 404.php:11
+msgid "Sorry This Page Isn't Available"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: index.php:79
+msgid "Read More"
+msgstr ""
+
+#: index.php:102
+msgid "No posts found matched your criteria"
+msgstr ""
+
+msgid "Adifier"
+msgstr ""
+
+#. Description of the theme
+msgid "Adifier - Classified Ads WordPress Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo.spoonthemes.net/themes/adifier/"
+msgstr ""
+
+#. Author of the theme
+msgid "SpoonThemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/spoonthemes"
+msgstr ""
