@@ -38,10 +38,48 @@ $(document).ready(function () {
         breakpoint: 480,
         settings: {
 //          arrows: false,
-          dots: true,
+          dots: false,
           slidesToShow: 1
         }
     }
   ]
+  });
+  
+    $('#input').on('input keyup', function(e) {
+    $('input[name="price"]').val('0,'+$(this).val());
+});
+
+  $('.catalog-block').click(function () {
+    
+      window.location.href = $(this).find('a.catalog_link').attr('href');
+  })
+
+  $('.process-favorites').click(function () {
+    $(this).find('svg').css({
+      'fill' : '#ff9509'
+    })
+  })
+
+  $('.text-price:contains("Без указания стоимости")').each(function () {
+    $(this).remove();
+  })
+
+    
+    $('.layout-view a').click(function () {
+      setTimeout(function () {
+        $('.text-price:contains("Без указания стоимости")').remove();
+      }, 1000)
+    })
+      $('.text-price:contains("Без указания стоимости")').remove();
+
+  $('.head-slider').slick({
+    slidesToShow: 1,
+    infinite: true,
+    autoplay: true,
+    arrows: false,
+    speed: 1500,
+    fade: true,
+    pauseOnHover:false,
+    autoplaySpeed: 7000
   });
 });

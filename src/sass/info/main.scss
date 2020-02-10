@@ -117,11 +117,12 @@ body {
   padding: 10px 0;
   z-index: 999;
   background: #fff;
-  box-shadow: 0 0;
+//  box-shadow: 0 0;
+      box-shadow: 0 0 10px 0px rgba(0,0,0,0.12);
 }
 
 .head {
-  background: transparent url(../images/bgh.jpg) center center/cover no-repeat fixed;
+//  background: transparent url(../images/bgh.jpg) center center/cover no-repeat fixed;
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
@@ -130,6 +131,12 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 5.208vw 0;
+  position: relative;
+  overflow: hidden;
+  .container {
+    position: relative;
+    z-index: 5;
+  }
 }
 
 .head-title {
@@ -490,8 +497,18 @@ body {
   border-radius: 5px;
   border: 1px solid #e0e0e0;
   background-color: #ffffff;
-
+    cursor: pointer;
   //  height: 100%;
+      &:hover {
+
+      img {
+        transform: scale(1.1);
+        opacity: 0.7;
+      }
+        .content .title {
+          color: #ff9409;
+        }
+    }
   .img {
     position: relative;
     display: block;
@@ -501,13 +518,7 @@ body {
     z-index: 2;
       transition: .3s;
     
-    &:hover {
 
-      img {
-        transform: scale(1.1);
-        opacity: 0.7;
-      }
-    }
 
     img {
       width: 100%;
@@ -793,12 +804,21 @@ body {
       margin-bottom: 29px;
       height: 350px;
       overflow: hidden;
-
+      width: 100%;
+      position: relative;
+      background-position: center;
+      background-size: cover;
       img {
-        transition: .3s;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+            transition: .3s;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
 
@@ -845,7 +865,7 @@ body {
             margin-top: -50px;
 
             img {
-              transform: scale(1.3);
+              transform: translateX(-50%) scale(1.3);
             }
           }
 
@@ -962,8 +982,9 @@ body {
       background: #000;
       overflow: hidden;
       img {
-        width: 100%;
-        min-height: 251px;
+        width: auto;
+        max-width: inherit;
+        height: 251px;
         transition: .3s;
       }
     }
@@ -1428,4 +1449,33 @@ main {
 
 .xs-block {
   display: none;
+}
+
+.head-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+  .item {
+      &:before {
+      content: "";
+      background: url('../images/owrl.png') repeat-y center;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    position: relative;
+  }
+  img {
+    width: auto;
+    min-height: 100vh;
+    max-width: 100%;
+  }
 }
